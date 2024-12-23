@@ -1,0 +1,99 @@
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background:rgb(5, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.meetVideoDetails{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff !important;
+}
+
+.VideoMeet{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+}
+
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.buttonContainers svg {
+    font-size: 3rem;
+}
+
+.conferenceView { 
+
+    display: flex;
+    
+    padding: 10px;
+    gap: 10px;
+}
+.videoContainer{
+    height: 40x;
+    width: 30px;
+  }
+
+.conferenceView  video {
+    width: 40vw;
+    height: 20vh;
+    min-width: 30vw;
+    border-radius: 10px;
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+}
+
+
+.chattingArea {
+    position: absolute;
+    bottom: 0;
+}
+.videoContainer video{
+   height: 40vh;
+   width: 45vh;
+   padding-left: 1.3rem;
+}
+
+.usernameContainer{
+    /* background-color: black!important; */
+    padding: auto;
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+}
+
+
