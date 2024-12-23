@@ -31,7 +31,7 @@ const start = async () => {
     console.log("MONGO_URI:", "mongodb+srv://mariyumsiddique02:AimaankhanMariyum@meetly.egvj9.mongodb.net/");
 
     // Attempt MongoDB connection
-    const connectionDb = await mongoose.connect("mongodb://localhost:27017/meetly", {
+    const connectionDb = await mongoose.connect("mongodb+srv://mariyumsiddique70:Aimaan@meetly.jyy1d.mongodb.net/", {
     //   useNewUrlParser: true,
     //   useUnifiedTopology: true,
     });
